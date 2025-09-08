@@ -20,17 +20,6 @@ import React from 'react'
           value={Search}
           onChange={handleInputChange}
         />
-      </div>
-
-      <div>
-        <button>Asc</button>
-      </div>
-
-      <div>
-        <button>Desc</button>
-      </div>
-
-      <div>
         <select
           className="select-section"
           value={Filter}
