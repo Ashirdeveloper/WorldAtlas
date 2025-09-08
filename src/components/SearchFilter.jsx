@@ -14,12 +14,24 @@ import React from 'react'
        <section className="section-searchFilter container">
       <div>
         <input
-        style={{padding: "1.3rem" , borderRadius: "20px", border: "2px solid gray"}}
+        style={{padding: "1.3rem" , marginTop:"1rem", borderRadius: "20px", border: "2px solid gray"}}
           type="text"
           placeholder="search"
           value={Search}
           onChange={handleInputChange}
         />
+      </div>
+               
+      <div>
+
+      </div>
+
+      <div>
+
+      </div>
+
+      <div>
+              
         <select
           className="select-section"
           value={Filter}
